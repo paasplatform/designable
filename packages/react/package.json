@@ -1,6 +1,6 @@
 {
   "name": "@designable/react",
-  "version": "1.0.0-beta.45",
+  "version": "1.0.0-alpha.0",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",
@@ -33,12 +33,12 @@
     "react": "16.x || 17.x"
   },
   "dependencies": {
-    "@designable/core": "1.0.0-beta.45",
-    "@designable/shared": "1.0.0-beta.45",
+    "@designable/core": "1.0.0-alpha.0",
+    "@designable/shared": "1.0.0-alpha.0",
     "dateformat": "^4.5.1"
   },
   "publishConfig": {
-    "access": "public"
+    "registry": "http://localhost:4873"
   },
   "gitHead": "bda070c137ba0003cc4451b2208e089d2e326b23"
 }

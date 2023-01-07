@@ -1,6 +1,6 @@
 {
   "name": "@designable/shared",
-  "version": "1.0.0-beta.45",
+  "version": "1.0.0-alpha.0",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",
@@ -23,7 +23,7 @@
     "build:umd": "rollup --config"
   },
   "publishConfig": {
-    "access": "public"
+    "registry": "http://localhost:4873"
   },
   "dependencies": {
     "requestidlecallback": "^0.3.0"
