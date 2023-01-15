@@ -1,4 +1,5 @@
 import 'antd/dist/antd.less'
+import './formily.antd.umd.production.css'
 import React, { useMemo } from 'react'
 import ReactDOM from 'react-dom'
 import {

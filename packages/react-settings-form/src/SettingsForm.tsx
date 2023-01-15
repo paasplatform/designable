@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react'
 import { createForm } from '@formily/core'
-import { Form } from '@formily/antd'
-import { observer } from '@formily/react'
+// import { Form } from '@formily/antd'
+import { FormProvider, observer } from '@formily/react'
 import { requestIdle, cancelIdle } from '@designable/shared'
 import {
   usePrefix,
@@ -61,21 +61,13 @@ export const SettingsForm: React.FC<ISettingFormProps> = observer(
             key={node.id}
           >
             <SettingsFormContext.Provider value={props}>
-              <Form
-                form={form}
-                colon={false}
-                labelWidth={120}
-                labelAlign="left"
-                wrapperAlign="right"
-                feedbackLayout="none"
-                tooltipLayout="text"
-              >
+              <FormProvider form={form as any}>
                 <SchemaField
                   schema={schema}
                   components={props.components}
                   scope={{ $node: node, ...props.scope }}
                 />
-              </Form>
+              </FormProvider>
             </SettingsFormContext.Provider>
           </div>
         )
