@@ -3611,7 +3611,7 @@ ansi-styles@^5.0.0:
   resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-5.2.0.tgz#07449690ad45777d1924ac2abb2fc8895dba836b"
   integrity sha512-Cxwpt2SfTzTtXcfOlzGEee8O+c+MmUgGrNiBcXnuWxuFJHe6a5Hz7qwhwe5OgaSYI0IJvkLqWX1ASG+cJOkEiA==
 
-antd@5.1.2:
+antd@5.1.2, antd@^4.0.0, antd@^4.15.2, antd@^4.15.5:
   version "5.1.2"
   resolved "http://localhost:4873/antd/-/antd-5.1.2.tgz#6c57c375e193ff77be1a8f6a132f5aacaf21d037"
   integrity sha512-B6R6Bm0jIOb6v3JhS4DLKghJWqX0OufCOy99+R6F7QtGjbV/0wG/0rqH3DiQ4BHNIHsL+SDUYti9o3cT28lPww==
@@ -3662,55 +3662,6 @@ antd@5.1.2:
     rc-util "^5.27.0"
     scroll-into-view-if-needed "^3.0.3"
     throttle-debounce "^5.0.0"
-
-antd@^4.0.0, antd@^4.15.2, antd@^4.15.5:
-  version "4.19.3"
-  resolved "https://registry.yarnpkg.com/antd/-/antd-4.19.3.tgz#2b6bb938bda9850c797db59c8923f3c8a14a6693"
-  integrity sha512-q4oT2lIM0Fb60MfcdtjH6LFQcmo5MuM27PN3nJMsRG1FeiQ9n+OPFlkQSdtb0ZWFIFjTH3p0W02T6SbB2U7ChQ==
-  dependencies:
-    "@ant-design/colors" "^6.0.0"
-    "@ant-design/icons" "^4.7.0"
-    "@ant-design/react-slick" "~0.28.1"
-    "@babel/runtime" "^7.12.5"
-    "@ctrl/tinycolor" "^3.4.0"
-    classnames "^2.2.6"
-    copy-to-clipboard "^3.2.0"
-    lodash "^4.17.21"
-    memoize-one "^6.0.0"
-    moment "^2.25.3"
-    rc-cascader "~3.2.1"
-    rc-checkbox "~2.3.0"
-    rc-collapse "~3.1.0"
-    rc-dialog "~8.6.0"
-    rc-drawer "~4.4.2"
-    rc-dropdown "~3.3.2"
-    rc-field-form "~1.24.0"
-    rc-image "~5.2.5"
-    rc-input "~0.0.1-alpha.5"
-    rc-input-number "~7.3.0"
-    rc-mentions "~1.6.1"
-    rc-menu "~9.3.2"
-    rc-motion "^2.4.4"
-    rc-notification "~4.5.7"
-    rc-pagination "~3.1.9"
-    rc-picker "~2.6.4"
-    rc-progress "~3.2.1"
-    rc-rate "~2.9.0"
-    rc-resize-observer "^1.2.0"
-    rc-select "~14.0.2"
-    rc-slider "~10.0.0-alpha.4"
-    rc-steps "~4.1.0"
-    rc-switch "~3.2.0"
-    rc-table "~7.23.0"
-    rc-tabs "~11.10.0"
-    rc-textarea "~0.3.0"
-    rc-tooltip "~5.1.1"
-    rc-tree "~5.4.3"
-    rc-tree-select "~5.1.1"
-    rc-trigger "^5.2.10"
-    rc-upload "~4.3.0"
-    rc-util "^5.19.3"
-    scroll-into-view-if-needed "^2.2.25"
 
 any-observable@^0.3.0:
   version "0.3.0"
@@ -5639,11 +5590,6 @@ crypto-random-string@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/crypto-random-string/-/crypto-random-string-2.0.0.tgz#ef2a7a966ec11083388369baa02ebead229b30d5"
   integrity sha512-v1plID3y9r/lPhviJ1wrXpLeyUIGAZ2SHNYTEapm7/8A9nLPoyvVp3RK/EPFqn5kEznyWgYZNsRtYYIWbuG8KA==
-
-crypto@^1.0.1:
-  version "1.0.1"
-  resolved "http://localhost:4873/crypto/-/crypto-1.0.1.tgz#2af1b7cad8175d24c8a1b0778255794a21803037"
-  integrity sha512-VxBKmeNcqQdiUQUW2Tzq0t377b54N2bMtXO/qiLa+6eRRmmC4qT3D4OnTGoT/U6O9aklQ/jTwbOtRMTTY8G0Ig==
 
 css-blank-pseudo@^0.1.4:
   version "0.1.4"
@@ -17728,11 +17674,6 @@ uuid@^8.3.0, uuid@^8.3.2:
   version "8.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
   integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
-
-uuid@^9.0.0:
-  version "9.0.0"
-  resolved "http://localhost:4873/uuid/-/uuid-9.0.0.tgz#592f550650024a38ceb0c562f2f6aa435761efb5"
-  integrity sha512-MXcSTerfPa4uqyzStbRoTgt5XIe3x5+42+q1sDuy3R5MDk66URdLMOZe5aPX/SQd+kuYAh0FdP/pO28IkQyTeg==
 
 v8-compile-cache@2.3.0, v8-compile-cache@^2.0.3, v8-compile-cache@^2.1.1:
   version "2.3.0"

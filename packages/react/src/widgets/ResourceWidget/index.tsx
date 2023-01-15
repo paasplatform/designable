@@ -11,7 +11,7 @@ import { usePrefix } from '../../hooks'
 import { IconWidget } from '../IconWidget'
 import { TextWidget } from '../TextWidget'
 import cls from 'classnames'
-import './styles.less'
+//import './styles.less'
 
 export type SourceMapper = (resource: IResource) => React.ReactChild
 

@@ -2,7 +2,7 @@ import React from 'react'
 import { useTree, usePrefix } from '../../hooks'
 import { observer } from '@formily/reactive-react'
 import { IconWidget } from '../IconWidget'
-import './styles.less'
+//import './styles.less'
 
 export interface IEmptyWidgetProps {
   dragTipsDirection?: 'left' | 'right'

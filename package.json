@@ -44,6 +44,7 @@
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "yargs": "^16.x",
+    "antd": "5.1.2",
     "@formily/antd": "2.2.17-alpha.6",
     "@formily/core": "2.2.17-alpha.6",
     "@formily/grid": "2.2.17-alpha.6",
@@ -176,8 +177,6 @@
     ]
   },
   "dependencies": {
-    "@ant-design/icons": "^4.0.2",
-    "crypto": "^1.0.1",
-    "uuid": "^9.0.0"
+    "@ant-design/icons": "^4.0.2"
   }
 }
