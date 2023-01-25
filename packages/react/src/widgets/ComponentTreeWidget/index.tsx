@@ -5,7 +5,7 @@ import { IDesignerComponents } from '../../types'
 import { TreeNode, GlobalRegistry } from '@designable/core'
 import { observer } from '@formily/reactive-react'
 import cls from 'classnames'
-import './styles.less'
+//import './styles.less'
 
 export interface IComponentTreeWidgetProps {
   style?: React.CSSProperties
