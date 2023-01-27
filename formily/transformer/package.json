@@ -22,7 +22,7 @@
     "build:esm": "tsc --project tsconfig.build.json --module es2015 --outDir esm"
   },
   "publishConfig": {
-    "access": "public"
+    "registry": "http://localhost:4873"
   },
   "devDependencies": {
     "@formily/core": "2.2.17-alpha.5",
@@ -36,5 +36,5 @@
     "@designable/core": "1.0.0-alpha.1",
     "@designable/shared": "1.0.0-alpha.1"
   },
-  "gitHead": "ef5da4efb03ffee9994fc9b72e2d5b0984b0730f"
+  "gitHead": "5895a60472af432315c5de50c9276e8b4327dbed"
 }

@@ -48,7 +48,7 @@
     "@designable/react-settings-form": "1.0.0-alpha.1"
   },
   "publishConfig": {
-    "access": "public"
+    "registry": "http://localhost:4873"
   },
-  "gitHead": "ef5da4efb03ffee9994fc9b72e2d5b0984b0730f"
+  "gitHead": "5895a60472af432315c5de50c9276e8b4327dbed"
 }
