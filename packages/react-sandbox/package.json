@@ -1,6 +1,6 @@
 {
   "name": "@designable/react-sandbox",
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0-alpha.3",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",
@@ -26,8 +26,8 @@
     "react": "16.x || 17.x"
   },
   "dependencies": {
-    "@designable/react": "1.0.0-alpha.2",
-    "@designable/shared": "1.0.0-alpha.2"
+    "@designable/react": "1.0.0-alpha.3",
+    "@designable/shared": "1.0.0-alpha.3"
   },
   "publishConfig": {
     "registry": "http://localhost:4873"
