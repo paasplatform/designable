@@ -53,8 +53,8 @@ export default {
   },
   externals: {
     '@formily/reactive': 'Formily.Reactive',
-    '@formily/shared': 'Formily.Shared',
-    '@formily/path': 'Formily.Path',
+    // '@formily/shared': 'Formily.Shared',
+    // '@formily/path': 'Formily.Path',
     react: 'React',
     'react-dom': 'ReactDOM',
     moment: 'moment',

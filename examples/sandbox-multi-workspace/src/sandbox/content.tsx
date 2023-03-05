@@ -1,6 +1,7 @@
 import React from 'react'
 import { ComponentTreeWidget, useTreeNode } from '@designable/react'
 import { observer } from '@formily/reactive-react'
+import { Card } from './Card'
 // import 'antd/dist/antd.css'
 
 export const Content = () => (
@@ -24,6 +25,7 @@ export const Content = () => (
           </span>
         )
       }),
+      // Card
       Card: (props) => {
         return (
           <div
