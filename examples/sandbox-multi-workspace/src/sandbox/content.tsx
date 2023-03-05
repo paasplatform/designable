@@ -25,25 +25,25 @@ export const Content = () => (
           </span>
         )
       }),
-      // Card
-      Card: (props) => {
-        return (
-          <div
-            {...props}
-            style={{
-              background: '#eee',
-              border: '1px solid #ddd',
-              display: 'flex',
-              padding: 10,
-              height: props.children ? 'auto' : 150,
-              justifyContent: 'center',
-              alignItems: 'center',
-            }}
-          >
-            {props.children ? props.children : <span>拖拽字段进入该区域</span>}
-          </div>
-        )
-      },
+      Card,
+      // Card: (props) => {
+      //   return (
+      //     <div
+      //       {...props}
+      //       style={{
+      //         background: '#eee',
+      //         border: '1px solid #ddd',
+      //         display: 'flex',
+      //         padding: 10,
+      //         height: props.children ? 'auto' : 150,
+      //         justifyContent: 'center',
+      //         alignItems: 'center',
+      //       }}
+      //     >
+      //       {props.children ? props.children : <span>拖拽字段进入该区域</span>}
+      //     </div>
+      //   )
+      // },
     }}
   />
 )

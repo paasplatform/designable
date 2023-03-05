@@ -386,7 +386,43 @@ const App = () => {
               </ViewportPanel>
             </WorkspacePanel>
           </Workspace>
-
+          <Workspace id="form-2">
+            <WorkspacePanel>
+              <ToolbarPanel>
+                <DesignerToolsWidget />
+                <ViewToolsWidget />{' '}
+              </ToolbarPanel>
+              <ViewportPanel>
+                <ViewPanel type="DESIGNABLE">
+                  {() => (
+                    <Sandbox
+                      jsAssets={[
+                        'https://unpkg.com/dayjs@1.11.7/dayjs.min.js',
+                        'https://unpkg.com/moment/min/moment-with-locales.js',
+                        'https://unpkg.com/react/umd/react.production.min.js',
+                        'https://unpkg.com/react-dom/umd/react-dom.production.min.js',
+                        'https://unpkg.com/antd/dist/antd-with-locales.min.js',
+                        './sandbox.bundle.js',
+                      ]}
+                    />
+                  )}
+                </ViewPanel>
+                <ViewPanel type="JSONTREE">
+                  {() => {
+                    return (
+                      <div style={{ overflow: 'hidden', height: '100%' }}>
+                        <MonacoInput
+                          language="javascript"
+                          helpCode="//hello world"
+                          defaultValue={`<div><div>123123<div>123123<div>123123<div>123123</div></div></div></div></div>`}
+                        />
+                      </div>
+                    )
+                  }}
+                </ViewPanel>
+              </ViewportPanel>
+            </WorkspacePanel>
+          </Workspace>
           <SettingsPanel title="panels.PropertySettings">
             <SettingsForm uploadAction="https://www.mocky.io/v2/5cc8019d300000980a055e76" />
           </SettingsPanel>
