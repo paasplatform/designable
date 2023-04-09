@@ -1,10 +1,10 @@
 import { ISchema } from '@formily/json-schema'
-import {
-  ReactionsSetter,
-  DataSourceSetter,
-  ValidatorSetter,
-} from '@designable/formily-setters'
-import { FormItemSwitcher } from '../../common/FormItemSwitcher'
+// import {
+//   ReactionsSetter,
+//   DataSourceSetter,
+//   ValidatorSetter,
+// } from '@designable/formily-setters'
+// import { FormItemSwitcher } from '../../common/FormItemSwitcher'
 import { AllSchemas } from '../../schemas'
 
 export const createComponentSchema = (
@@ -124,15 +124,15 @@ export const createFieldSchema = (
           },
           enum: {
             'x-decorator': 'FormItem',
-            'x-component': DataSourceSetter,
+            'x-component': 'DataSourceSetter',
           },
           'x-reactions': {
             'x-decorator': 'FormItem',
-            'x-component': ReactionsSetter,
+            'x-component': 'ReactionsSetter',
           },
           'x-validator': {
             type: 'array',
-            'x-component': ValidatorSetter,
+            'x-component': 'ValidatorSetter',
           },
           required: {
             type: 'boolean',
@@ -206,13 +206,13 @@ export const createVoidFieldSchema = (
           },
           'x-reactions': {
             'x-decorator': 'FormItem',
-            'x-component': ReactionsSetter,
+            'x-component': 'ReactionsSetter',
           },
-          'x-decorator': {
-            type: 'string',
-            'x-decorator': 'FormItem',
-            'x-component': FormItemSwitcher,
-          },
+          // 'x-decorator': {
+          //   type: 'string',
+          //   'x-decorator': 'FormItem',
+          //   'x-component': FormItemSwitcher,
+          // },
         },
       },
       ...createComponentSchema(component, decorator),
