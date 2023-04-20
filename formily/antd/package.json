@@ -1,6 +1,6 @@
 {
   "name": "@designable/formily-antd",
-  "version": "1.0.0-alpha.4",
+  "version": "1.0.0-alpha.5",
   "license": "MIT",
   "main": "lib",
   "module": "esm",
@@ -25,7 +25,7 @@
     "start": "webpack-dev-server --config playground/webpack.dev.ts"
   },
   "devDependencies": {
-    "@designable/react-settings-form": "1.0.0-alpha.4",
+    "@designable/react-settings-form": "1.0.0-alpha.5",
     "@formily/antd": "2.2.17-alpha.5",
     "@formily/core": "2.2.17-alpha.5",
     "@formily/react": "2.2.17-alpha.5",
@@ -61,10 +61,10 @@
     "react-is": ">=16.8.0 || >=17.0.0"
   },
   "dependencies": {
-    "@designable/core": "1.0.0-alpha.4",
-    "@designable/formily-setters": "1.0.0-alpha.4",
-    "@designable/formily-transformer": "1.0.0-alpha.4",
-    "@designable/react": "1.0.0-alpha.4"
+    "@designable/core": "1.0.0-alpha.5",
+    "@designable/formily-setters": "1.0.0-alpha.5",
+    "@designable/formily-transformer": "1.0.0-alpha.5",
+    "@designable/react": "1.0.0-alpha.5"
   },
   "publishConfig": {
     "registry": "http://localhost:4873"
