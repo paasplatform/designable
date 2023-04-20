@@ -1,5 +1,5 @@
 import React from 'react'
-import { ComponentTreeWidget, useTreeNode } from '@designable/react'
+import { ComponentTreeWidget } from '@designable/react'
 // import { observer } from '@formily/reactive-react'
 // import { Card } from './Card'
 // import 'antd/dist/antd.css'
@@ -33,7 +33,7 @@ import {
   FormLayout,
   FormGrid,
 } from '@designable/formily-antd'
-import { Module } from './Module'
+import { Module, ModuleRef } from './Module'
 
 export const Content = () => (
   <ComponentTreeWidget

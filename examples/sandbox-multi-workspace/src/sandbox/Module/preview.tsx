@@ -3,7 +3,7 @@ import { createBehavior } from '@designable/core'
 import { createForm } from '@formily/core'
 import { observer } from '@formily/react'
 import { usePrefix, DnFC } from '@designable/react'
-// import { AllSchemas } from '@designable/formily-antd'
+import { AllSchemas } from '@designable/formily-antd'
 import {
   Module as InternalModule,
   ModuleRef as InternalModuleRef,
@@ -42,13 +42,13 @@ Module.Behavior = createBehavior({
       cloneable: !node.isRoot,
       deletable: !node.isRoot,
       droppable: true,
-      // propsSchema: {
-      //   type: 'object',
-      //   properties: {
-      //     // ...(AllSchemas.FormLayout.properties as any),
-      //     style: AllSchemas.CSSStyle,
-      //   },
-      // },
+      propsSchema: {
+        type: 'object',
+        properties: {
+          // ...(AllSchemas.FormLayout.properties as any),
+          style: AllSchemas.CSSStyle,
+        },
+      },
       // defaultProps: {
       //   labelCol: 6,
       //   wrapperCol: 12,
