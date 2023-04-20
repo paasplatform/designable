@@ -9,7 +9,7 @@ export interface ITransformerOptions {
 
 export interface IFormilySchema {
   schema?: ISchema
-  form?: Record<string, any>
+  module?: Record<string, any>
 }
 
 const createOptions = (options: ITransformerOptions): ITransformerOptions => {
@@ -75,7 +75,7 @@ export const transformToSchema = (
     }
     return schema
   }
-  return { form: clone(root.props), schema: createSchema(root, schema) }
+  return { module: clone(root.props), schema: createSchema(root, schema) }
 }
 
 export const transformToTreeNode = (
@@ -85,7 +85,7 @@ export const transformToTreeNode = (
   const realOptions = createOptions(options)
   const root: ITreeNode = {
     componentName: realOptions.designableFormName,
-    props: formily.form,
+    props: formily.module,
     children: [],
   }
   const schema = new Schema(formily.schema)

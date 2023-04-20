@@ -28,15 +28,18 @@ import {
   ArrayTable,
   Space,
   FormTab,
+  Field,
   FormCollapse,
   FormLayout,
   FormGrid,
-  Field,
 } from '@designable/formily-antd'
+import { Module } from './Module'
 
 export const Content = () => (
   <ComponentTreeWidget
     components={{
+      Module,
+      ModuleRef,
       Input,
       Select,
       TreeSelect,

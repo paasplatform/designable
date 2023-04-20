@@ -7,6 +7,7 @@ import {
   usePrefix,
 } from '@designable/react'
 import ReactDOM from 'react-dom'
+// import { createRoot } from 'react-dom/client';
 
 export interface ISandboxProps {
   style?: React.CSSProperties
@@ -85,7 +86,7 @@ export const useSandbox = (props: React.PropsWithChildren<ISandboxProps>) => {
           }
         </style>
         <body>
-          <div id="__SANDBOX_ROOT__"></div>
+          <div id="__SANDBOX_ROOT__" class="dn-app dn-light"></div>
           ${scripts}
         </body>
       </html>
@@ -109,6 +110,9 @@ export const useSandboxScope = () => {
 
 export const renderSandboxContent = (render: (scope?: any) => JSX.Element) => {
   if (isFn(render)) {
+    // const root = createRoot(document.getElementById('__SANDBOX_ROOT__'));
+    // root.render(render(useSandboxScope()))
+
     ReactDOM.render(
       render(useSandboxScope()),
       document.getElementById('__SANDBOX_ROOT__')
