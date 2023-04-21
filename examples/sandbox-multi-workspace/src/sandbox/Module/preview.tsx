@@ -1,4 +1,4 @@
-import React, { Fragment, useMemo } from 'react'
+import React, { useMemo } from 'react'
 import { createBehavior } from '@designable/core'
 import { createForm } from '@formily/core'
 import { observer } from '@formily/react'
@@ -12,7 +12,7 @@ import { Module as ModuleLocales } from './Locales'
 
 export const Module: DnFC<React.ComponentProps<typeof InternalModule>> =
   observer((props) => {
-    const prefix = usePrefix('designable-form')
+    const prefix = usePrefix('designable-module')
     const form = useMemo(
       () =>
         createForm({
@@ -23,7 +23,7 @@ export const Module: DnFC<React.ComponentProps<typeof InternalModule>> =
     return (
       <InternalModule
         {...props}
-        component={Fragment}
+        // component={Fragment}
         style={{ ...props.style }}
         className={prefix}
         form={form}

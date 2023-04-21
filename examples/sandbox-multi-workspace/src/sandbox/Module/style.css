@@ -1,0 +1,47 @@
+.dn-designable-module .ant-input,
+.dn-designable-module .ant-input-number,
+.dn-designable-module .ant-input-affix-wrapper,
+.dn-designable-module .ant-cascader-picker,
+.dn-designable-module .ant-picker-input,
+.dn-designable-module .ant-picker,
+.dn-designable-module .ant-cascader-picker-label,
+.dn-designable-module .ant-slider,
+.dn-designable-module .ant-checkbox,
+.dn-designable-module .ant-rate,
+.dn-designable-module .ant-switch,
+.dn-designable-module .ant-radio,
+.dn-designable-module .ant-radio-wrapper,
+.dn-designable-module .ant-checkbox-group,
+.dn-designable-module .ant-checkbox-wrapper,
+.dn-designable-module .ant-radio-group,
+.dn-designable-module .ant-upload,
+.dn-designable-module .ant-transfer,
+.dn-designable-module .ant-select,
+.dn-designable-module .ant-select-selector {
+  pointer-events: none !important;
+}
+.dn-designable-module .ant-input input,
+.dn-designable-module .ant-input-number input,
+.dn-designable-module .ant-input-affix-wrapper input,
+.dn-designable-module .ant-cascader-picker input,
+.dn-designable-module .ant-picker-input input,
+.dn-designable-module .ant-picker input,
+.dn-designable-module .ant-cascader-picker-label input,
+.dn-designable-module .ant-slider input,
+.dn-designable-module .ant-checkbox input,
+.dn-designable-module .ant-rate input,
+.dn-designable-module .ant-switch input,
+.dn-designable-module .ant-radio input,
+.dn-designable-module .ant-radio-wrapper input,
+.dn-designable-module .ant-checkbox-group input,
+.dn-designable-module .ant-checkbox-wrapper input,
+.dn-designable-module .ant-radio-group input,
+.dn-designable-module .ant-upload input,
+.dn-designable-module .ant-transfer input,
+.dn-designable-module .ant-select input,
+.dn-designable-module .ant-select-selector input {
+  pointer-events: none !important;
+}
+.dn-designable-module .anticon svg {
+  pointer-events: none;
+}
