@@ -87,7 +87,7 @@ export const createFieldSchema = (
         properties: {
           name: {
             type: 'string',
-            'x-decorator': 'FormItem',
+            // 'x-decorator': 'FormItem',
             'x-component': 'Input',
           },
           title: {

@@ -1,6 +1,6 @@
 {
   "name": "@designable/react-settings-form",
-  "version": "1.0.0-alpha.5",
+  "version": "1.0.0-alpha.6",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",
@@ -41,9 +41,9 @@
   },
   "dependencies": {
     "@babel/parser": "^7.14.7",
-    "@designable/core": "1.0.0-alpha.5",
-    "@designable/react": "1.0.0-alpha.5",
-    "@designable/shared": "1.0.0-alpha.5",
+    "@designable/core": "1.0.0-alpha.6",
+    "@designable/react": "1.0.0-alpha.6",
+    "@designable/shared": "1.0.0-alpha.6",
     "@monaco-editor/react": "^4.2.1",
     "monaco-editor": "^0.25.2",
     "prettier": "^2.3.2",

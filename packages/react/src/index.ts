@@ -1,5 +1,5 @@
 import './locales'
-import './styles.css'
+import './theme.less'
 export * from './panels'
 export * from './widgets'
 export * from './context'

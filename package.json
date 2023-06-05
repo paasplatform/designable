@@ -6,13 +6,13 @@
   },
   "workspaces": [
     "packages/*",
-    "formily/*",
-    "examples/*"
+    "formily/*"
   ],
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "clean": "lerna clean",
     "build": "rimraf -rf packages/*/{lib,esm} && lerna run build",
+    "build:antd": "lerna run --scope @designable/react build",
     "build:docs": "dumi build",
     "start": "dumi dev",
     "start:playground": "npm run start:basic",
@@ -56,11 +56,11 @@
     "@formily/reactive": "2.2.21-alpha.4",
     "@formily/shared": "2.2.21-alpha.4",
     "@formily/validator": "2.2.21-alpha.4",
-    "@designable/core": "1.0.0-alpha.4",
-    "@designable/react": "1.0.0-alpha.4",
-    "@designable/react-sandbox": "1.0.0-alpha.4",
-    "@designable/react-settings-form": "1.0.0-alpha.4",
-    "@designable/shared": "1.0.0-alpha.4"
+    "@designable/core": "1.0.0-alpha.5",
+    "@designable/react": "1.0.0-alpha.5",
+    "@designable/react-sandbox": "1.0.0-alpha.5",
+    "@designable/react-settings-form": "1.0.0-alpha.5",
+    "@designable/shared": "1.0.0-alpha.5"
   },
   "devDependencies": {
     "@alifd/next": "^1.19.1",
@@ -120,6 +120,7 @@
     "less-loader": "^5.0.0",
     "less-plugin-npm-import": "^2.1.0",
     "lint-staged": "^8.2.1",
+    "mini-css-extract-plugin": "^2.7.6",
     "mobx": "^6.0.4",
     "mobx-react-lite": "^3.1.6",
     "onchange": "^5.2.0",

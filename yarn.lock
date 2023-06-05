@@ -1141,50 +1141,40 @@
   resolved "https://registry.yarnpkg.com/@ctrl/tinycolor/-/tinycolor-3.4.0.tgz#c3c5ae543c897caa9c2a68630bed355be5f9990f"
   integrity sha512-JZButFdZ1+/xAfpguQHoabIXkcqRRKpMrWKBkpEZZyxfY9C1DpADFB8PEqGSTeFr135SaTRfKqGKx5xSCLI7ZQ==
 
-"@designable/core@1.0.0-alpha.0", "@designable/core@1.0.0-alpha.4":
-  version "1.0.0-alpha.4"
-  resolved "http://localhost:4873/@designable/core/-/core-1.0.0-alpha.4.tgz#a2ab525ecd45e038543b85659e6215ac8370fd12"
-  integrity sha512-HHNnND0ylRRIVKVfQ2DTF3k5Pd5q8skHy352Tqm8lHO15gSymqWhilxOrzO21TtBw8UnNCengka8k1AekyRjeg==
+"@designable/core@1.0.0-alpha.0":
+  version "1.0.0-alpha.5"
   dependencies:
-    "@designable/shared" "1.0.0-alpha.4"
+    "@designable/shared" "1.0.0-alpha.5"
     "@juggle/resize-observer" "^3.3.1"
 
-"@designable/react-sandbox@1.0.0-alpha.0", "@designable/react-sandbox@1.0.0-alpha.4":
-  version "1.0.0-alpha.4"
-  resolved "http://localhost:4873/@designable/react-sandbox/-/react-sandbox-1.0.0-alpha.4.tgz#adc9e5a0c729cd8997da97a858df84fe5ffa923f"
-  integrity sha512-7rAEbrZxJF9xphSvJQNGxj3VADbHlKUK/W/skNMx9df01jNAcj4zJAc0dVj/V27UJxpqvJocX7VXJe+KXZOkAw==
+"@designable/react-sandbox@1.0.0-alpha.0":
+  version "1.0.0-alpha.5"
   dependencies:
-    "@designable/react" "1.0.0-alpha.4"
-    "@designable/shared" "1.0.0-alpha.4"
+    "@designable/react" "1.0.0-alpha.5"
+    "@designable/shared" "1.0.0-alpha.5"
 
-"@designable/react-settings-form@1.0.0-alpha.0", "@designable/react-settings-form@1.0.0-alpha.4":
-  version "1.0.0-alpha.4"
-  resolved "http://localhost:4873/@designable/react-settings-form/-/react-settings-form-1.0.0-alpha.4.tgz#fdf5e020c57abe26abb42cb8fba707523e7787df"
-  integrity sha512-s52KnZXcYrK/4rUNEbX2FQoT1qX/jjQUdurdU2jiznxIkSkIf+QULBjeu6fz8QK4sj/MFMRjXas4IGpYNKGJLA==
+"@designable/react-settings-form@1.0.0-alpha.0":
+  version "1.0.0-alpha.5"
   dependencies:
     "@babel/parser" "^7.14.7"
-    "@designable/core" "1.0.0-alpha.4"
-    "@designable/react" "1.0.0-alpha.4"
-    "@designable/shared" "1.0.0-alpha.4"
+    "@designable/core" "1.0.0-alpha.5"
+    "@designable/react" "1.0.0-alpha.5"
+    "@designable/shared" "1.0.0-alpha.5"
     "@monaco-editor/react" "^4.2.1"
     monaco-editor "^0.25.2"
     prettier "^2.3.2"
     react-color "^2.19.3"
     react-tiny-popover "^6.0.5"
 
-"@designable/react@1.0.0-alpha.0", "@designable/react@1.0.0-alpha.4":
-  version "1.0.0-alpha.4"
-  resolved "http://localhost:4873/@designable/react/-/react-1.0.0-alpha.4.tgz#eb8ff1f99913cb056ad6ca84ee9eb34a40c0c2f5"
-  integrity sha512-0Mlla8dOnF/cwRTuT31j8HWAC4R/bLgnX92aSsN7Jt80BVrZO9J63qjNuIK7DSWEdKlhTTO+kpYot5FcNQGi3w==
+"@designable/react@1.0.0-alpha.0":
+  version "1.0.0-alpha.5"
   dependencies:
-    "@designable/core" "1.0.0-alpha.4"
-    "@designable/shared" "1.0.0-alpha.4"
+    "@designable/core" "1.0.0-alpha.5"
+    "@designable/shared" "1.0.0-alpha.5"
     dateformat "^4.5.1"
 
-"@designable/shared@1.0.0-alpha.0", "@designable/shared@1.0.0-alpha.4":
-  version "1.0.0-alpha.4"
-  resolved "http://localhost:4873/@designable/shared/-/shared-1.0.0-alpha.4.tgz#81b9fcc22d80ae10d715c9c86957ae6989297005"
-  integrity sha512-62rHy8eMOjgEqici9P4b7DLFQVGPjZFxXdYAVgSfcyVUNY4bvq3pshDJ3ynFpRO28+GB8BxU+GLllFUo9u+GjA==
+"@designable/shared@1.0.0-alpha.0":
+  version "1.0.0-alpha.5"
   dependencies:
     requestidlecallback "^0.3.0"
 
